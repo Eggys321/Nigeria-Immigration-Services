@@ -82,8 +82,8 @@ src/
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/immigration-portal.git
-cd immigration-portal
+git clone https://github.com/Eggys321/Nigeria-Immigration-Services.git
+cd Nigeria-Immigration-Services
 ```
 
 ### 2️⃣ Install dependencies
