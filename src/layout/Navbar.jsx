@@ -4,6 +4,7 @@ import menuLogo from "@/assets/menu-logo.svg";
 import menuClose from "@/assets/menu-close.svg";
 import Button from "@/components/Button";
 import Navlinks from "@/components/Navlinks";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +14,10 @@ const Navbar = () => {
   return (
     <nav className="w-full sticky z-10 top-0 bg-[#FEFEFE]">
       <div className="wrapper flex flex-wrap justify-between items-center transition-all duration-500">
+        <Link to='/'>
+        
         <img src={navLogo} alt="nav logo" className="w-[173px] lg:w-[211px]" />
+        </Link>
 
         {/* Desktop Links */}
         <Navlinks />

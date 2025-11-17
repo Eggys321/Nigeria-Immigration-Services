@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "./Button.jsx";
 
 const Hero = ({
   bgImage,
@@ -49,9 +49,30 @@ const Hero = ({
         <p className="text-[#F1F1F1] font-normal md:text-[24px] md:w-[620px]">
           {subtitle}
         </p>
+        <div className="pt-10 lg:flex gap-10 justify-cente ">
+          <div>
 
-        {buttonText1 && <Button text={buttonText1} />}
-        {buttonText2 && <Button text={buttonText2} />}
+          {buttonText1 && (
+            <Button
+              variant="success"
+              className="text-[16px] hidde lg:bloc  font-semibold w-[175px]    md:w-36 h-[55px]"
+            >
+              Apply now
+            </Button>
+          )}
+          </div>
+          <div className="mt-3 md:mt-0">
+
+          {buttonText2 && (
+            <Button
+              variant="outline"
+              className="hidde lg:bloc font-semibold  p-14  md:w-[200px] md:h-[55px] "
+            >
+              Explore services
+            </Button>
+          )}
+          </div>
+        </div>
       </div>
     </section>
   );

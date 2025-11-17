@@ -1,7 +1,7 @@
 const variants = {
 //   primary: "bg-blue-600 text-white hover:bg-blue-700",
 //   secondary: "bg-gray-200 text-gray-700 hover:bg-gray-300",
-//   outline: "border border-blue-600 text-blue-600 hover:bg-blue-50",
+  outline: "border border-[#E6F7EE] text-[#E6F7EE] hover:bg-blue-",
 //   danger: "bg-red-600 text-white hover:bg-red-700",
   success:"bg-[#00AA55] text-[#FEFEFE] hover:bg-[#00994D]"
 };
