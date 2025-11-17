@@ -1,6 +1,8 @@
 import React from 'react';
 import Hero from '@/components/Hero';
 import { heroData } from '@/data/heroData';
+import VisitorsStatus from './components/VisitorsStatus';
+import GetStarted from './components/GetStarted';
 
 const Home = () => {
   return (
@@ -10,6 +12,12 @@ const Home = () => {
    
    </main> */}
      <Hero {  ...heroData.home}/>
+     <div className='hidden md:block'>
+
+     <VisitorsStatus/>
+     </div>
+     
+     <GetStarted/>
     </>
   )
 }
