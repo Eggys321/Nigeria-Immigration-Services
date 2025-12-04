@@ -1,6 +1,11 @@
 import homeBg from "@/assets/home-hero.svg";
 import smImg from "@/assets/home-hero-sm.png";
-import logo from "@/assets/react.svg"
+import logo from "@/assets/react.svg";
+import hrLogo from "@/assets/hr-img.png";
+import startAppLogo from "@/assets/start-app.png";
+import uploadDocsLogo from "@/assets/upload-docs.png";
+import makePaymentLogo from "@/assets/make-payment.png";
+import trackProgressLogo from "@/assets/track-progress.png";
 
 export const heroData = {
   home: {
@@ -21,3 +26,30 @@ export const heroData = {
     buttonText: "Learn More",
   },
 };
+
+export const steps = [
+    {
+      logo: startAppLogo,
+      title: "Start your application",
+      desc: "Create an account or log in to begin your process",
+      showHr: true,
+    },
+    {
+      logo: uploadDocsLogo,
+      title: "Upload required document",
+      desc: "Scan and upload necessary files like ID passport photos.",
+      showHr: true,
+    },
+    {
+      logo: makePaymentLogo,
+      title: "Make secure payment",
+      desc: "Pay using approved payment channels and receive confirmation.",
+      showHr: true,
+    },
+    {
+      logo: trackProgressLogo,
+      title: "Track progress",
+      desc: "Use your tracking ID to monitor updates and get notified.",
+      showHr: false,
+    },
+  ];
